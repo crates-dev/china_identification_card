@@ -21,8 +21,8 @@ cargo add china_identification_card
 ## Examples
 
 ```rust
-    use china_identification_card::*;
-    let is_valid: bool = is_valid_id_number("110101202311012176");
+use china_identification_card::*;
+let is_valid: bool = is_valid_id_number("110101202311012176");
 ```
 
 ## License
