@@ -5,7 +5,6 @@ edition = "2021"
 license = "MIT"
 description = "A Rust library for validating Chinese identification card numbers based on official rules and checksums."
 keywords = ["china", "id", "identification", "card", "validation"]
-categories = ["text-processing", "data-validation", "utilities"]
 repository = "https://github.com/ltpp-universe/china_identification_card"
 
 [dependencies]
