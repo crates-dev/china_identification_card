@@ -1,5 +1,10 @@
 # China Identification Card
 
+[![](https://img.shields.io/crates/v/china_identification_card.svg)](https://crates.io/crates/china_identification_card)
+[![](https://docs.rs/china_identification_card/badge.svg)](https://docs.rs/china_identification_card)
+[![](https://img.shields.io/crates/l/china_identification_card.svg)](./LICENSE)
+[![](https://github.com/ltpp-universe/china_identification_card/workflows/Rust/badge.svg)](https://github.com/ltpp-universe/china_identification_card/actions?query=workflow:Rust)
+
 [Official Documentation](https://docs.ltpp.vip/CHINA_IDENTIFICATION_CARD/)
 
 A Rust library for validating Chinese identification card numbers based on official rules and checksums.
