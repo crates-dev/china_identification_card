@@ -15,6 +15,7 @@ mod cfg;
 /// use china_identification_card::*;
 /// let is_valid: bool = is_valid_id_number("110101202311012176");
 /// ```
+#[inline]
 pub fn is_valid_id_number(id_number: &str) -> bool {
     // Ensure the length is 18, first 17 characters are digits, and the 18th is a digit or 'X'
     if id_number.len() != 18 || !id_number[..17].chars().all(|c| c.is_digit(10)) {
