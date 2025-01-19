@@ -1,6 +1,6 @@
 [package]
 name = "china_identification_card"
-version = "0.2.2"
+version = "0.2.3"
 edition = "2021"
 license = "MIT"
 description = "A Rust library for validating Chinese identification card numbers based on official rules and checksums."
@@ -8,4 +8,22 @@ keywords = ["china", "id", "identification", "card", "validation"]
 repository = "https://github.com/ltpp-universe/china_identification_card"
 categories = ["authentication", "data-structures", "development-tools"]
 
-[dependencies]
+[profile.dev]
+incremental = false
+opt-level = 3
+lto = true
+panic = "abort"
+debug = false
+codegen-units = 1
+strip = "debuginfo"
+backtrace = "off"
+
+[profile.release]
+incremental = false
+opt-level = 3
+lto = true
+panic = "abort"
+debug = false
+codegen-units = 1
+strip = "debuginfo"
+backtrace = "off"
