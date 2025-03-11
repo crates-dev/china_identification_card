@@ -1,6 +1,6 @@
 [package]
 name = "china_identification_card"
-version = "0.2.7"
+version = "0.2.8"
 edition = "2021"
 license = "MIT"
 description = "A Rust library for validating Chinese identification card numbers based on official rules and checksums."
@@ -16,7 +16,6 @@ panic = "unwind"
 debug = false
 codegen-units = 1
 strip = "debuginfo"
-backtrace = "off"
 
 [profile.release]
 incremental = false
@@ -26,4 +25,3 @@ panic = "unwind"
 debug = false
 codegen-units = 1
 strip = "debuginfo"
-backtrace = "off"
