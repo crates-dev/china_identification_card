@@ -1,11 +1,11 @@
 [package]
 name = "china_identification_card"
-version = "0.3.1"
+version = "0.3.2"
 edition = "2024"
 license = "MIT"
 description = "A Rust library for validating Chinese identification card numbers based on official rules and checksums."
 keywords = ["china", "id", "identification", "card", "validation"]
-repository = "https://github.com/ltpp-universe/china_identification_card"
+repository = "https://github.com/eastspire/china_identification_card"
 categories = ["authentication", "data-structures", "development-tools"]
 
 [profile.dev]
