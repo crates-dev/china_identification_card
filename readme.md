@@ -5,7 +5,7 @@
 [![](https://img.shields.io/crates/v/china_identification_card.svg)](https://crates.io/crates/china_identification_card)
 [![](https://img.shields.io/crates/d/china_identification_card.svg)](https://img.shields.io/crates/d/china_identification_card.svg)
 [![](https://docs.rs/china_identification_card/badge.svg)](https://docs.rs/china_identification_card)
-[![](https://github.com/ltpp-universe/china_identification_card/workflows/Rust/badge.svg)](https://github.com/ltpp-universe/china_identification_card/actions?query=workflow:Rust)
+[![](https://github.com/eastspire/china_identification_card/workflows/Rust/badge.svg)](https://github.com/eastspire/china_identification_card/actions?query=workflow:Rust)
 [![](https://img.shields.io/crates/l/china_identification_card.svg)](./LICENSE)
 
 </center>
@@ -45,4 +45,4 @@ Contributions are welcome! Please open an issue or submit a pull request.
 
 ## Contact
 
-For any inquiries, please reach out to the author at [ltpp-universe <root@ltpp.vip>](mailto:root@ltpp.vip).
+For any inquiries, please reach out to the author at [eastspire <root@ltpp.vip>](mailto:root@ltpp.vip).
