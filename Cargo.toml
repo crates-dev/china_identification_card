@@ -1,6 +1,6 @@
 [package]
 name = "china_identification_card"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2024"
 license = "MIT"
 description = "A Rust library for validating Chinese identification card numbers based on official rules and checksums."

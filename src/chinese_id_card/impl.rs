@@ -20,6 +20,6 @@ impl ChineseIdCard {
     }
 
     pub fn is_invalid_id_number<T: ToString>(id_number: T) -> bool {
-        Self::is_valid_id_number(id_number)
+        !Self::is_valid_id_number(id_number)
     }
 }
