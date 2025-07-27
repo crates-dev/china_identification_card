@@ -6,7 +6,7 @@ impl ChineseIdCard {
     ///
     /// # Arguments
     ///
-    /// - `id_number` - A value that can be converted to string representing the ID number.
+    /// - `T` - A value that can be converted to string representing the ID number.
     ///
     /// # Returns
     ///
@@ -33,7 +33,7 @@ impl ChineseIdCard {
     ///
     /// # Arguments
     ///
-    /// - `id_number` - A value that can be converted to string representing the ID number.
+    /// - `T` - A value that can be converted to string representing the ID number.
     ///
     /// # Returns
     ///
