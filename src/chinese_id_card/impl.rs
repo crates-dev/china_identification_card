@@ -1,16 +1,16 @@
 use crate::*;
 
-/// Implementation of validation methods for Chinese ID card numbers.
+/// Provides validation methods for Chinese ID card numbers.
 impl ChineseIdCard {
     /// Validates whether a given string represents a valid Chinese ID card number.
     ///
     /// # Arguments
     ///
-    /// - `T` - A value that can be converted to string representing the ID number.
+    /// - `T` - Type implementing ToString trait.
     ///
     /// # Returns
     ///
-    /// - `bool` - Returns true if the ID number is valid, false otherwise.
+    /// - `bool` - Validation result.
     pub fn is_valid_id_number<T: ToString>(id_number: T) -> bool {
         let id_number_string: String = id_number.to_string();
         if id_number_string.len() != 18 || !id_number_string[..17].chars().all(|c| c.is_digit(10)) {
@@ -33,11 +33,11 @@ impl ChineseIdCard {
     ///
     /// # Arguments
     ///
-    /// - `T` - A value that can be converted to string representing the ID number.
+    /// - `T` - Type implementing ToString trait.
     ///
     /// # Returns
     ///
-    /// - `bool` - Returns true if the ID number is invalid, false otherwise.
+    /// - `bool` - Validation result.
     pub fn is_invalid_id_number<T: ToString>(id_number: T) -> bool {
         !Self::is_valid_id_number(id_number)
     }
