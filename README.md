@@ -5,7 +5,7 @@
 [![](https://img.shields.io/crates/v/china_identification_card.svg)](https://crates.io/crates/china_identification_card)
 [![](https://img.shields.io/crates/d/china_identification_card.svg)](https://img.shields.io/crates/d/china_identification_card.svg)
 [![](https://docs.rs/china_identification_card/badge.svg)](https://docs.rs/china_identification_card)
-[![](https://github.com/eastspire/china_identification_card/workflows/Rust/badge.svg)](https://github.com/eastspire/china_identification_card/actions?query=workflow:Rust)
+[![](https://github.com/crates-dev/china_identification_card/workflows/Rust/badge.svg)](https://github.com/crates-dev/china_identification_card/actions?query=workflow:Rust)
 [![](https://img.shields.io/crates/l/china_identification_card.svg)](./LICENSE)
 
 </center>
