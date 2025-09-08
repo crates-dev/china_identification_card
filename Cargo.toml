@@ -1,6 +1,6 @@
 [package]
 name = "china_identification_card"
-version = "1.1.11"
+version = "1.1.12"
 readme = "README.md"
 edition = "2024"
 authors = ["root@ltpp.vip"]
