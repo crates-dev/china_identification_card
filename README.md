@@ -50,3 +50,7 @@ Contributions are welcome! Please open an issue or submit a pull request.
 ## Contact
 
 For any inquiries, please reach out to the author at [root@ltpp.vip](mailto:root@ltpp.vip).
+
+## Star History
+
+![](https://api.star-history.com/svg?repos=crates-dev/china_identification_card&type=Date)
