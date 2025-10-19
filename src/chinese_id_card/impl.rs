@@ -13,11 +13,13 @@ impl ChineseIdCard {
     /// - `bool` - Validation result.
     pub fn is_valid_id_number<T: ToString>(id_number: T) -> bool {
         let id_number_string: String = id_number.to_string();
-        if id_number_string.len() != 18 || !id_number_string[..17].chars().all(|c| c.is_digit(10)) {
+        if id_number_string.len() != 18
+            || !id_number_string[..17].chars().all(|c| c.is_ascii_digit())
+        {
             return false;
         }
         let last_char: char = id_number_string.chars().last().unwrap();
-        if !(last_char.is_digit(10) || last_char == 'X') {
+        if !(last_char.is_ascii_digit() || last_char == 'X') {
             return false;
         }
         let sum: i32 = id_number_string[..17]
