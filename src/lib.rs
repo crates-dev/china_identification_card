@@ -2,8 +2,13 @@
 //!
 //! A Rust library for validating Chinese identification card numbers based on official rules and checksums.
 
-mod cfg;
+#[cfg(test)]
+mod test;
 
-pub(crate) mod chinese_id_card;
+pub(crate) mod r#const;
+pub(crate) mod r#impl;
+pub(crate) mod r#struct;
 
-pub use chinese_id_card::*;
+pub use r#struct::*;
+
+pub(crate) use r#const::*;
