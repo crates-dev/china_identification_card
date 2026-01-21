@@ -11,4 +11,4 @@ mod test;
 
 pub use r#struct::*;
 
-pub(crate) use r#const::*;
+use r#const::*;
