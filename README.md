@@ -10,7 +10,9 @@
 
 </center>
 
-[Official Documentation](https://docs.ltpp.vip/CHINA_IDENTIFICATION_CARD/)
+[Official Documentation](https://docs.ltpp.vip/china_identification_card/)
+
+[Api Docs](https://docs.rs/china_identification_card/latest/)
 
 > A Rust library for validating Chinese identification card numbers based on official rules and checksums.
 
