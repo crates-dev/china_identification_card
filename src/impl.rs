@@ -1,4 +1,4 @@
-use crate::*;
+use super::*;
 
 /// Provides validation methods for Chinese ID card numbers.
 impl ChineseIdCard {
@@ -14,7 +14,9 @@ impl ChineseIdCard {
     pub fn is_valid_id_number<T: ToString>(id_number: T) -> bool {
         let id_number_string: String = id_number.to_string();
         if id_number_string.len() != 18
-            || !id_number_string[..17].chars().all(|c| c.is_ascii_digit())
+            || !id_number_string[..17]
+                .chars()
+                .all(|character: char| character.is_ascii_digit())
         {
             return false;
         }
